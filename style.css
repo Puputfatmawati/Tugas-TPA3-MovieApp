@@ -30,8 +30,8 @@ header{
     height: 120px;
 }
 .search{
-    background-color: transparent;
-    border: 2px solid #121312;
+    background-color: rgb(245, 247, 250);
+    border: 2px solid #100252;
     padding:0.5rem 1rem;
     border-radius: 50px;
     font-size: 1rem;
@@ -43,7 +43,7 @@ header{
     background-color: white;
 }
 .search::placeholder{
-    color: white;
+    color: rgb(93, 89, 89);
 }
 
 main{
