@@ -8,7 +8,11 @@
 
 
 body{
-    background-color:#d7c5f7c2;
+    /* background-color:#dbb5f5c2; */
+    background-image : url(./bg.gif);
+    background-size: cover;
+    background-position: center;
+    background-position-x: center;
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
@@ -18,8 +22,8 @@ header{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(158, 160, 221);
-    box-shadow: #605cd33c 0px 8px 24px;
+    background-color: rgb(73, 76, 136);
+    box-shadow: #2721d1d3 0px 8px 24px;
 }
 .image{
     width: 150px;
@@ -31,7 +35,7 @@ header{
     padding:0.5rem 1rem;
     border-radius: 50px;
     font-size: 1rem;
-    color:#9b14e4;
+    color:#03036c;
     font-family: inherit;
 }
 .search:focus{
@@ -52,7 +56,7 @@ main{
     margin: 1rem;
     border-radius: 3px;
     box-shadow: 0.2px 4px 5px rgba(0,0,0,0.1);
-    background-color: rgb(120, 124, 223);
+    background-color: rgb(73, 76, 136);
     position:relative;
     overflow: hidden;
 }
@@ -71,7 +75,7 @@ main{
     margin-top: 0;
 }
 .movieInfo span{
-    background-color: #f1525a;
+    background-color: #ea2f38;
     padding: 0.25rem 0.5rem;
     border-radius: 3px;
     font-weight: bold;
@@ -107,7 +111,7 @@ main{
     margin:10px 30px;
     align-items: center;
     justify-content: center;
-    color:rgb(100, 108, 211);
+    color: white;
 }
 
 .page{
@@ -117,7 +121,7 @@ main{
 
 .page.disabled{
     cursor:not-allowed;
-    color:grey;
+    color:rgb(2, 3, 38)
 }
 
 .current{
@@ -220,7 +224,7 @@ main{
     border-color: #9147e1;
 }
 .footer {
-    background-color: rgb(158, 160, 221);
+    background-color: rgb(73, 76, 136);
     color:rgb(12, 12, 12);
     text-align: center;
     font-weight: var(--font-semi);
