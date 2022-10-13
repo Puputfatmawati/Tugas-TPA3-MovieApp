@@ -6,6 +6,6 @@ Hallo</br>
  Berikut merupakan tampilan home website yang telah saya buat</br>
  Terimakasih
  
- ![movie](image3.jpeg)
+ ![movie](image4.jpeg)
 
  Movie App: https://movieapp-puputfatmawati.netlify.app/
